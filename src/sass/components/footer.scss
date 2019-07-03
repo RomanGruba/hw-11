@@ -1,0 +1,53 @@
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.footer-legal {
+    display: flex;
+    font-size: 14px;
+    font-family: $secondary-font;
+    color: $title-f-color;
+    line-height: 1.2;
+}
+
+.footer-link {
+    color: #f38181;
+    text-decoration: none;
+    padding-left: 6px;
+}
+
+.footer-usermail {
+    border: 1px solid rgb(231, 231, 231);
+    background-color: rgb(255, 255, 255);
+    width: 234px;
+    height: 44px;
+    position: relative;
+    right: -4px;
+    &::placeholder {
+        font-size: 15px;
+        font-family: $main-font;
+        color: rgb(204, 204, 204);
+        font-style: italic;
+        line-height: 1.6;
+        text-align: left;
+    }
+}
+
+.button-subscribe {
+    cursor: pointer;
+    background-color: $icon-green;
+    width: 150px;
+    height: 44px;
+    border: none;
+    font-family: $secondary-font;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+}

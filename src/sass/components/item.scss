@@ -1,0 +1,38 @@
+
+.item__svg {
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 0;
+    left: 30px;
+    fill:  $icon-green;
+}
+
+.item-title {
+    font-size: 14px;
+    font-family: $secondary-font;
+    color: $title-f-color;
+    text-transform: uppercase;
+    line-height: 1.2;
+    font-weight: 700;
+    text-align: left;
+    margin: 0 0 0 92px;
+    padding: 0 0 20px 0;
+}
+
+.item-text {
+    font-size: 15px;
+    font-family: $main-font;
+    color: $main-f-color;
+    line-height: 1.6;
+    text-align: left;
+    margin: 0 0 0 92px;
+    padding: 0;
+}
+
+.item-background {
+    width: 380px;
+    height: 470px;
+    background-color: $icon-green;
+    position: absolute;
+}

@@ -1,0 +1,50 @@
+
+.section-team {
+    padding-bottom: 80px;
+    border-bottom: 1px solid rgb(229, 229, 229);
+}
+
+.team-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.team-item {
+    position: relative;
+    width: 380px;
+    &:hover .team-img {
+    top: -10px;
+    left: -10px;
+    }
+    &:hover .socials-list {
+    opacity: 1;
+    top: -10px;
+    left: -10px;
+    }
+}
+
+.team-img {
+    position: absolute;
+    z-index: 1;
+}
+
+.team-member__name {
+    font-family: $secondary-font;
+    font-size: 14px;
+    color: $title-f-color;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.team-member__position {
+    font-family: $main-font;
+    font-size: 15px;
+    color: $main-f-color;
+    font-style: italic;
+    line-height: 1.6;
+    text-align: center;
+}
+
